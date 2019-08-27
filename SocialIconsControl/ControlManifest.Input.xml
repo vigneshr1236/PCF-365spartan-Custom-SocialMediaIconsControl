@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="PCFControls" constructor="SocialIconsControl" version="0.0.20" display-name-key="365Spartan_SocialMediaIconsControl" description-key="365Spartan_SocialMediaIconsControl" control-type="standard">
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="socialMediaProperty" display-name-key="socialMedia" description-key="socialMedia" of-type="SingleLine.Text" usage="bound" required="true" />
+    
+    <property name="socialMediaTypeProperty" display-name-key="socialMediaType" description-key="Type of social Media" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="editable" display-name-key="Editable" description-key="editable" of-type="TwoOptions" usage="input" required="false" />
+
+    <property name="facebookProperty" display-name-key="facebook" description-key="facebook" of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="twitterProperty" display-name-key="twitter" description-key="twitter" of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="googleProperty" display-name-key="google" description-key="google" of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="linkedinProperty" display-name-key="linkedin" description-key="linkedin" of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="youtubeProperty" display-name-key="youtube" description-key="youtube" of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="pinterestProperty" display-name-key="pinterest" description-key="pinterest" of-type="SingleLine.Text" usage="bound" required="false" /> 
+    <property name="skypeProperty" display-name-key="skype" description-key="skype" of-type="SingleLine.Text" usage="bound" required="false" /> 
+    <property name="androidProperty" display-name-key="android" description-key="android" of-type="SingleLine.Text" usage="bound" required="false" /> 
+    <property name="dribbbleProperty" display-name-key="dribbble" description-key="dribbble" of-type="SingleLine.Text" usage="bound" required="false" /> 
+    <property name="vimeoProperty" display-name-key="vimeo" description-key="vimeo" of-type="SingleLine.Text" usage="bound" required="false" /> 
+    <property name="tumblrProperty" display-name-key="tumblr" description-key="tumblr" of-type="SingleLine.Text" usage="bound" required="false" /> 
+    <property name="vineProperty" display-name-key="vine" description-key="vine" of-type="SingleLine.Text" usage="bound" required="false" /> 
+    <property name="foursquareProperty" display-name-key="foursquare" description-key="foursquare" of-type="SingleLine.Text" usage="bound" required="false" /> 
+    <property name="stumbleuponProperty" display-name-key="stumbleupon" description-key="stumbleupon" of-type="SingleLine.Text" usage="bound" required="false" /> 
+    <property name="flickrProperty" display-name-key="flickr" description-key="flickr" of-type="SingleLine.Text" usage="bound" required="false" /> 
+    <property name="yahooProperty" display-name-key="yahoo" description-key="yahoo" of-type="SingleLine.Text" usage="bound" required="false" /> 
+    <property name="redditProperty" display-name-key="reddit" description-key="reddit" of-type="SingleLine.Text" usage="bound" required="false" /> 
+    <property name="rssProperty" display-name-key="rss" description-key="rss" of-type="SingleLine.Text" usage="bound" required="false" /> 
+   
+    <resources>
+      <code path="index.ts" order="1"/>
+     
+      <css path="css/circular-social-bar.css" order="1" />
+      <css path="css/button-social-bar.css" order="1" />
+      <css path="css/hower-social-bar.css" order="1" />
+      <css path="css/glow-social-bar.css" order="1" />
+      <css path="css/animatedbutton-social-bar.css" order="1" />
+    
+       <!-- <img path="editImage.png" /> -->
+      <!-- UNCOMMENT TO ADD MORE RESOURCES
+      <css path="css/SocialIconsControl.css" order="1" />
+      <resx path="strings/SocialIconsControl.1033.resx" version="1.0.0" />
+      -->
+    </resources>
+  </control>
+</manifest>

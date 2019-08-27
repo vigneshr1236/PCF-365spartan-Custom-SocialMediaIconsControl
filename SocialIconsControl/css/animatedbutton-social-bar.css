@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400');
+
+
+   /* .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    display:flex;
+    margin:0;
+    padding:0;
+  } */
+  
+ .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li {
+    list-style:none;
+    margin:16px 5px;
+  }
+  
+ .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li a .fa {
+    font-size: 40px;
+    color: #262626;
+    line-height:80px;
+    transition: .5s;
+    padding-right: 14px;
+  }
+  
+ .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li a span {
+    padding:0;
+    margin:0;
+    position:absolute;
+    top: 30px;
+    color: #262626;
+    letter-spacing: 4px;
+    transition: .5s;
+  }
+  
+ .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li a {
+    text-decoration: none;
+    display:absolute;
+    display:block;
+    width:210px;
+    height:80px;
+    background: #f3ececeb;
+    text-align:left;
+    padding-left: 20px;
+    transform: rotate(-30deg) skew(25deg) translate(0,0);
+    transition:.5s;
+    box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+  }
+ .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li a:before {
+    content: '';
+    position: absolute;
+    top:10px;
+    left:-20px;
+    height:100%;
+    width:20px;
+    background: #b1b1b1;
+    transform: .5s;
+    transform: rotate(0deg) skewY(-45deg);
+  }
+ .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li a:after {
+    content: '';
+    position: absolute;
+    bottom:-20px;
+    left:-10px;
+    height:20px;
+    width:100%;
+    background: #b1b1b1;
+    transform: .5s;
+    transform: rotate(0deg) skewX(-45deg);
+  }
+  
+ .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li a:hover {
+    transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+  }
+  
+ .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover .fa {
+    color:#fff;
+  }
+  
+ .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover span {
+    color:#fff;
+  }
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover #idAnchorfacebook {
+    background: #3b5998;
+  }
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorfacebook:before    {
+    background: #365492;
+  }
+  
+   .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorfacebook:after    {
+    background: #4a69ad;
+  }
+
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover #idAnchortwitter {
+    background:  #00aced;
+  }
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchortwitter:before    {
+    background: #097aa5;
+  }
+  
+   .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchortwitter:after    {
+    background: #53b9e0;
+  }
+
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover #idAnchorgoogle {
+    background:  #dd4b39;
+  }
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorgoogle:before    {
+    background: #b33a2b;
+  }
+  
+   .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorgoogle:after    {
+    background: #e66a5a;
+  }
+
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover #idAnchorlinkedin {
+    background:  #249cea;
+  }
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorlinkedin:before    {
+    background: #2f87cc;
+  }
+  
+   .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorlinkedin:after    {
+    background: #4d80bb;
+  }
+
+
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover #idAnchoryoutube {
+    background:  #e4405f;
+  }
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchoryoutube:before    {
+    background: #d81c3f;
+  }
+  
+   .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchoryoutube:after    {
+    background: #e46880;
+  }
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover #idAnchorpinterest {
+    background:  #de3030;
+  }
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorpinterest:before    {
+    background: #e81b1b;
+  }
+  
+   .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorpinterest:after    {
+    background: #da4e4e;
+  }
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover #idAnchorskype {
+    background:  #3299e4;
+  }
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorskype:before    {
+    background: #1baae8;
+  }
+  
+   .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorskype:after    {
+    background: #4e89da;
+  }
+
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover #idAnchorandroid {
+    background:  #78ea24;
+  }
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorandroid:before    {
+    background: #6fcc2f;
+  }
+  
+   .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorandroid:after    {
+    background: #5bbb4d;
+  }
+
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover #idAnchordribbble {
+    background:  #cc285c;
+  }
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchordribbble:before    {
+    background: #cc2f5e;
+  }
+  
+   .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchordribbble:after    {
+    background: #bb4d6e;
+  }
+
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover #idAnchorvimeo {
+    background:  #289ecc;
+  }
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorvimeo:before    {
+    background: #2fa4cc;
+  }
+  
+   .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorvimeo:after    {
+    background: #4d95bb;
+  }
+
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover #idAnchortumblr {
+    background:  #2c4762;
+  }
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchortumblr:before    {
+    background: #3f4b69;
+  }
+  
+   .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchortumblr:after    {
+    background: #3a5361;
+  }
+
+
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover #idAnchorvine {
+    background:  #00b489;
+  }
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorvine:before    {
+    background: #1f8a70;
+  }
+  
+   .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorvine:after    {
+    background: #25967a;
+  }
+
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover #idAnchorfoursquare {
+    background:  #45bbff;
+  }
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorfoursquare:before    {
+    background: #2b7faf;
+  }
+  
+   .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorfoursquare:after    {
+    background: #1a71a2;
+  }
+
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover #idAnchorstumbleupon {
+    background:  #eb4924;
+  }
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorstumbleupon:before    {
+    background: #b14c35;
+  }
+  
+   .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorstumbleupon:after    {
+    background: #c74425;
+  }
+
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover #idAnchorflickr {
+    background:  #f40083;
+  }
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorflickr:before    {
+    background: #e24599;
+  }
+  
+   .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorflickr:after    {
+    background: #c73986;
+  }
+
+
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover #idAnchoryahoo {
+    background:  #430297;
+  }
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchoryahoo:before    {
+    background: #5518a2;
+  }
+  
+   .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchoryahoo:after    {
+    background: #411679;
+  }
+
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover #idAnchorreddit {
+    background:  #ec5709;
+  }
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorreddit:before    {
+    background: #b35c2f;
+  }
+  
+   .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorreddit:after    {
+    background: #ea6a27;
+  }
+
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover #idAnchorrss {
+    background:  #e4931c;
+  }
+  
+  .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorrss:before    {
+    background: #d49538;
+  }
+  
+   .PCFControls\.SocialIconsControl .animatedbutton-social-bar ul li:hover a#idAnchorrss:after    {
+    background: #e4a13e;
+  }
+

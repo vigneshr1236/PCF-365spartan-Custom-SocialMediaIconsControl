@@ -1,0 +1,297 @@
+.PCFControls\.SocialIconsControl .hower-social-bar {
+margin-top: 27px;
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a{
+  background: #D2D7D3;
+  color: #222;
+  border-radius: 100%;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  width: 40px;
+  height: 28px;
+  margin: 0 2px;
+  padding-top: 12px;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.icon:before{
+  font-family: "FontAwesome", sans-serif;
+  color: #fff;
+  font-size: 20px;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.facebook:before{
+  content: '\f09a';
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.twitter:before{
+  content: '\f099';
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.google:before{
+  content: '\f0d5';
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.linkedin:before{
+  content: '\f0e1';
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.youtube:before{
+  content: '\f167';
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.github:before{ 
+  content: '\f113';
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.dribble:before{
+  content: '\f17d';
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.pinterest:before{
+  content: '\f0d2';
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.skype:before{
+  content: '\f17e';
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.android:before{
+  content: '\f17b';
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.dribbble:before{
+  content: '\f17d';
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.dribbble:hover{
+  background-color: #ea4c89;
+  color: #bfbfbf;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.dribbble span{
+  color: #ea4c89;
+}
+
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.vimeo:before{
+  content: '\f27d';
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.vimeo:hover{
+  background-color: #45bbff;
+  color: #bfbfbf;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.vimeo span{
+  color: #45bbff;
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.tumblr:before{
+  content: '\f173';
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.tumblr:hover{
+  background-color: #2c4762;
+  color: #bfbfbf;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.tumblr span{
+  color: #2c4762;
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.vine:before{
+  content: '\f1ca';
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.vine:hover{
+  background-color: #00b489;
+  color: #bfbfbf;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.vine span{
+  color: #00b489;
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.foursquare:before{
+  content: '\f180';
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.foursquare:hover{
+  background-color: #45bbff;
+  color: #bfbfbf;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.foursquare span{
+  color: #45bbff;
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.stumbleupon:before{
+  content: '\f1a4';
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.stumbleupon:hover{
+  background-color: #eb4924;
+  color: #bfbfbf;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.stumbleupon span{
+  color: #eb4924;
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.flickr:before{
+  content: '\f16e';
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.flickr:hover{
+  background-color: #f40083;
+  color: #bfbfbf;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.flickr span{
+  color: #f40083;
+}
+
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.yahoo:before{
+  content: '\f19e';
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.yahoo:hover{
+  background-color: #430297;
+  color: #bfbfbf;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.yahoo span{
+  color: #430297;
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.reddit:before{
+  content: '\f1a1';
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.reddit:hover{
+  background-color: #ff5700;
+  color: #bfbfbf;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.reddit span{
+  color: #ff5700;
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.rss:before{
+  content: '\f09e';
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.rss:hover{
+  background-color: #e4931c;
+  color: #bfbfbf;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.rss span{
+  color: #e4931c;
+}
+
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a span{
+  background: #d2d7d3;
+  color: #222;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  left: -25px;
+  right: -25px;
+  padding: 5px 7px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a span:before{
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #d2d7d3;;
+  position: absolute;
+  bottom: -5px;
+  left: 40px;
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a:hover span{
+  bottom: 50px;
+  visibility: visible;
+  opacity: 1;
+}
+
+/* hover over the icons now to see the tooltips! */
+.PCFControls\.SocialIconsControl .hower-social-bar  a.facebook:hover{
+  background-color: #4183d7;
+  color: #bfbfbf;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.facebook span{
+  color: #4183d7;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.twitter:hover{
+  background-color: #19b5fe;
+  color: #fff;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.twitter span{
+  color: #19b5fe;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.github:hover{
+  background-color: #000;
+  color: #fff;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.github span{
+  color: #000;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.dribble:hover{
+  background-color: #f62459;
+  color: #fff;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.dribble span{
+  color: #f62459;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.pinterest:hover{
+  background-color: #f22613;
+  color: #fff;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.pinterest span{
+  color: #f22613;
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.google:hover{
+  background-color: #f22613;
+  color: #fff;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.google span{
+  color: #f22613;
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.linkedin:hover{
+  background-color: #007bb5;
+  color: #fff;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.linkedin span{
+  color: #007bb5;
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.youtube:hover{
+  background-color: #bb0000;
+  color: #fff;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.youtube span{
+  color: #bb0000;
+}
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.skype:hover{
+  background-color: #00aff0;
+  color: #fff;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.skype span{
+  color: #00aff0;
+}
+
+
+.PCFControls\.SocialIconsControl .hower-social-bar  a.android:hover{
+  background-color: #a4c639;
+  color: #fff;
+}
+.PCFControls\.SocialIconsControl .hower-social-bar  a.android span{
+  color: #a4c639;
+}
+

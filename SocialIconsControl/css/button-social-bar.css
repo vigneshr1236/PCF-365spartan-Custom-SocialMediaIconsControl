@@ -1,0 +1,238 @@
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+
+/*Ignore me, I'm just page styling*/
+.PCFControls\.SocialIconsControl .button-social-bar .text-design {font-family: 'Roboto', sans-serif;}
+
+/*Pen code from this point on*/
+.PCFControls\.SocialIconsControl .button-social-bar .btn {
+  clear:both;
+  white-space:nowrap;
+  font-size:.8em;
+  display:inline-block;
+  border-radius:5px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.35);
+  margin:2px;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+  overflow:hidden;
+  text-decoration: none;
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn:hover {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.45);
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn:focus {
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn > span,.btn-icon > i {
+  /* float:left; */
+  padding:13px;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+  line-height:1em
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn > span {
+  padding:14px 18px 16px;
+  white-space:nowrap;
+  color:#FFF;
+  background:#b8b8b8
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn:focus > span {
+  background:#9a9a9a
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-icon > i {
+  border-radius:5px 0 0 5px;
+  position:relative;
+  width:13px;
+  text-align:center;
+  font-size:1.25em;
+  color:#fff;
+  background:#212121
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-icon > i:after {
+  content:"";
+  border:8px solid;
+  border-color:transparent transparent transparent #222;
+  position:absolute;
+  top:13px;
+  right:-15px
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-icon:hover > i,.btn-icon:focus > i {
+  color:#FFF
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-icon > span {
+  border-radius:0 5px 5px 0
+}
+
+/*Facebook*/
+.PCFControls\.SocialIconsControl .button-social-bar .btn-facebook:hover > i,.btn-facebook:focus > i {
+  color:#3b5998
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-facebook  > span {
+  background:#3b5998
+}
+
+/*Twitter*/
+.PCFControls\.SocialIconsControl .button-social-bar .btn-twitter:hover > i,.btn-twitter:focus > i {
+  color:#55acee
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-twitter > span {
+  background:#55acee
+}
+
+/*Google*/
+.PCFControls\.SocialIconsControl .button-social-bar .btn-google:hover > i,.btn-google:focus > i {
+  color:#dd4b39
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-google > span {
+  background:#dd4b39
+}
+
+/*Pinterest*/
+.PCFControls\.SocialIconsControl .button-social-bar .btn-pinterest:hover > i,.btn-pinterest:focus > i {
+  color:#cb2028
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-pinterest > span {
+  background:#cb2028
+}
+
+/*LinkedIn*/
+.PCFControls\.SocialIconsControl .button-social-bar .btn-linkedin:hover > i,.btn-linkedin:focus > i {
+  color:#007bb6
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-linkedin > span {
+  background:#007bb6
+}
+
+/*youtube*/
+.PCFControls\.SocialIconsControl .button-social-bar .btn-youtube:hover > i,.btn-youtube:focus > i {
+  color:#ff3030
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-youtube > span {
+  background:#ff3030
+}
+
+/*skype*/
+.PCFControls\.SocialIconsControl .button-social-bar .btn-skype:hover > i,.btn-skype:focus > i {
+  color:#00aff0
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-skype > span {
+  background:#00aff0
+}
+
+/*android*/
+.PCFControls\.SocialIconsControl .button-social-bar .btn-android:hover > i,.btn-android:focus > i {
+  color:#a4c639
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-android > span {
+  background:#a4c639
+}
+
+/*dribbble*/
+.PCFControls\.SocialIconsControl .button-social-bar .btn-dribbble:hover > i,.btn-dribbble:focus > i {
+  color:#ea4c89
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-dribbble > span {
+  background:#ea4c89
+}
+
+/*vimeo*/
+.PCFControls\.SocialIconsControl .button-social-bar .btn-vimeo:hover > i,.btn-vimeo:focus > i {
+  color:#45bbff
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-vimeo > span {
+  background:#45bbff
+}
+
+/*tumblr*/
+.PCFControls\.SocialIconsControl .button-social-bar .btn-tumblr:hover > i,.btn-tumblr:focus > i {
+  color:#2c4762
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-tumblr > span {
+  background:#2c4762
+}
+
+/*vine*/
+.PCFControls\.SocialIconsControl .button-social-bar .btn-vine:hover > i,.btn-vine:focus > i {
+  color:#00b489
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-vine > span {
+  background:#00b489
+}
+
+/*foursquare*/
+.PCFControls\.SocialIconsControl .button-social-bar .btn-foursquare:hover > i,.btn-foursquare:focus > i {
+  color:#45bbff
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-foursquare > span {
+  background:#45bbff
+}
+
+/*stumbleupon*/
+.PCFControls\.SocialIconsControl .button-social-bar .btn-stumbleupon:hover > i,.btn-stumbleupon:focus > i {
+  color:#eb4924
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-stumbleupon > span {
+  background:#eb4924
+}
+
+/*flickr*/
+.PCFControls\.SocialIconsControl .button-social-bar .btn-flickr:hover > i,.btn-flickr:focus > i {
+  color:#f40083
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-flickr > span {
+  background:#f40083
+}
+
+/*yahoo*/
+.PCFControls\.SocialIconsControl .button-social-bar .btn-yahoo:hover > i,.btn-yahoo:focus > i {
+  color:#430297
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-yahoo > span {
+  background:#430297
+}
+
+/*reddit*/
+.PCFControls\.SocialIconsControl .button-social-bar .btn-reddit:hover > i,.btn-reddit:focus > i {
+  color:#ff5700
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-reddit > span {
+  background:#ff5700
+}
+
+/*rss*/
+.PCFControls\.SocialIconsControl .button-social-bar .btn-rss:hover > i,.btn-rss:focus > i {
+  color:#e4931c
+}
+
+.PCFControls\.SocialIconsControl .button-social-bar .btn-rss > span {
+  background:#e4931c
+}
