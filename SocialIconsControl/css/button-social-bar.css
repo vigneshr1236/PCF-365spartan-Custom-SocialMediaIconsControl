@@ -1,10 +1,10 @@
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
 
-/*Ignore me, I'm just page styling*/
+
 .PCFControls\.SocialIconsControl .button-social-bar .text-design {font-family: 'Roboto', sans-serif;}
 
-/*Pen code from this point on*/
+
 .PCFControls\.SocialIconsControl .button-social-bar .btn {
   clear:both;
   white-space:nowrap;
